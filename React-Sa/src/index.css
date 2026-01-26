@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+width:100%;
+background-color: #FFFFFF;
+}
+
+#topo{
+  width: 100%;
+  height: 60px;
+  background-color: #3DAE70;
+}
+
+#recursos{
+  width: 100%;
+  height: 600px;
+  background-color: #c2b936;
+  display: flex;
+}
+
+#esqR {
+  width: 50%;      
+  height: 100%;     
+  background-color: #a32d4a;
+}
+
+#dirR {
+  width: 50%;      
+  height: 100%;     
+  background-color: #e2dd3f;
+}
+
+#quemSomos{
+  width: 100%;
+  height: 500px;
+  background-color: #c48d18;
+}
+
+#Oqueoferecemos{
+  width: 100%;
+  height: 300px;
+  background-color: #3bc236;
+}
