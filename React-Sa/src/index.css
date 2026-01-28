@@ -10,12 +10,14 @@ width:100%;
 background-color: #FFFFFF;
 }
 
+/* Header */
 #topo{
   width: 100%;
   height: 60px;
   background-color: #3DAE70;
 }
 
+/* Recursos */
 #recursos{
   width: 100%;
   height: 600px;
@@ -26,23 +28,97 @@ background-color: #FFFFFF;
 #esqR {
   width: 50%;      
   height: 100%;     
-  background-color: #a32d4a;
+  background-color: #ffffff;
+}
+
+#tituloR {
+  color: #656565;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#textoR {
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
 }
 
 #dirR {
   width: 50%;      
   height: 100%;     
-  background-color: #e2dd3f;
+  background-color: #ffffff;
 }
 
-#quemSomos{
-  width: 100%;
-  height: 500px;
-  background-color: #c48d18;
+#foto-medico {
+  width: 95%;
+  height: auto;
 }
 
+#btnR {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #3DAE70;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Quem somos */
+.fundo {
+ background-color:#3DAE70;
+ padding: 100px;
+}
+
+#baseF1{
+  height: 100px;
+  background: linear-gradient(to right bottom, #ffffff 50%, #3DAE70 49% ) ;
+  border-top: 20px solid #656565;
+}
+
+#baseF2{
+  height: 100px;
+  background: linear-gradient(to left top, #ffffff 50%, #3DAE70 49% ) ;
+  border-bottom: 20px solid #656565;
+}
+
+/* O que oferecemos */
 #Oqueoferecemos{
   width: 100%;
   height: 300px;
   background-color: #3bc236;
+  display: flex;
+}
+
+#esqQ{
+  width: 50%;      
+  height: 100%;     
+  background-color: #a32d4a;
+}
+
+#dirQ{
+  width: 50%;      
+  height: 100%;     
+  background-color: #e2dd3f;
+}
+
+#foto-calendario {
+  width: 60%;
+  height: auto;
+}
+
+#tituloQ {
+  color: #656565;
+  font-size: 36px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+#textoQ {
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
 }
